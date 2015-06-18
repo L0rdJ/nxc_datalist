@@ -1,0 +1,1 @@
+<input name="nxc-data-list-edit[{$node.node_id}][{$attribute.contentclass_attribute_identifier}]" type="text" size="20" value="{$attribute.data_text|wash( xhtml )}" {if $attribute.contentclass_attribute.is_required}class="nxc-datalist-edit-reuired"{/if} />

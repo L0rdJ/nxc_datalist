@@ -1,0 +1,1 @@
+{$node.object.published|datetime('custom','%d.%m.%Y %H:%i:%s')}

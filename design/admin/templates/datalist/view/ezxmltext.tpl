@@ -1,0 +1,1 @@
+{$attribute.content.output.output_text|strip_tags|shorten( 100 )}{if gt( $attribute.content.output.output_text|count_chars(), 100)}...{/if}

@@ -1,0 +1,1 @@
+<input type="text" class="datalist-filter-view-string" value="{$current_filter.filter_values[$data_list_attribute.identifier]}" name="datalist_filter[{$data_list_attribute.identifier}]" id="datalist-filter-{$data_list_attribute.identifier}" />

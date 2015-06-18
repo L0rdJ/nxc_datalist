@@ -1,0 +1,1 @@
+{$attribute.content|wash( xhtml )|nl2br|shorten( 100 )}{if gt( $attribute.content|wash( xhtml )|count_chars(), 100)}...{/if}

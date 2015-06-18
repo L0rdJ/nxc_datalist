@@ -1,0 +1,205 @@
+div.datalist-two-columns {
+	padding-left: 490px;
+}
+
+div.datalist-user-filters-container,
+div.datalist-my-filters-container {
+	float: left;
+}
+
+div.datalist-user-filters-container {
+	width: 480px;
+	margin-left: -490px;
+}
+
+div.datalist-my-filters-container {
+	width: 100%;
+}
+
+div.additional-columns-header {
+	margin-top: 1em;
+}
+
+div.datalist-filter-group {
+	padding: 2px 15px;
+}
+div.datalist-filter-group#datalist-filter-group-speaker_details {
+	display: none;
+}
+div.datalist-filter-group a.datalist-filter-group-title {
+	padding-left: 12px;
+	background: url("../images/icons/arrow_down.gif");
+	background-repeat: no-repeat;
+	background-position: 0px center;
+}
+
+div.datalist-filter-group a.opened {
+	background: url("../images/icons/arrow_right.gif");
+	background-repeat: no-repeat;
+	background-position: 0px center;
+}
+
+div.datalist-filter-group-attribute-title,
+div.datalist-filter-group-attribute-value {
+	float: left;
+}
+
+div.datalist-filter-group-attribute-title {
+	text-align: right;
+	padding-right: 10px;
+	width: 160px;
+	padding: 3px 10px 0px 0px;
+}
+
+div.datalist-filter-group-attribute-value select {
+	width: 268px;
+}
+
+div.datalist-filter-group-attribute-value input.datalist-filter-view-string,
+div.datalist-filter-group-attribute-value input.datalist-filter-view-email {
+	width: 264px;
+}
+
+div.datalist-filter-group-attribute-value input.datalist-filter-view-date {
+	width: 68px;
+}
+
+div.datalist-filter-group-attribute-value input.datalist-filter-view-numeric {
+	width: 106px;
+}
+
+div.datalist-filter-group-attribute-value div.datalist-filter-view-user {
+	margin: 3px 0px 1px 0px;
+}
+
+div.datalist-filter-group-attributes {
+	padding: 2px 0px 5px 0px;
+}
+
+div.datalist-filter-view-user div.datalist-filter-view-user-title,
+div.datalist-filter-view-user div.datalist-filter-view-user-value {
+	float: left;
+}
+
+div.datalist-filter-view-user div.datalist-filter-view-user-title {
+	width: 60px;
+}
+
+div.datalist-filter-view-user div.datalist-filter-view-user-value input.datalist-filter-view-user-login,
+div.datalist-filter-view-user div.datalist-filter-view-user-value input.datalist-filter-view-user-email {
+	width: 206px;
+}
+
+img.datepicker-toggler,
+img.datepicker-empty {
+	position: relative;
+	top: 4px;
+	margin-left: 0px;
+	cursor: pointer;
+}
+
+
+table#datalist-filter-list-table {
+	width: 100%;
+}
+
+table#datalist-list-nodes-table th {
+	width: auto;
+}
+
+table#datalist-list-nodes-table th.datalist-checkboxes,
+table#datalist-list-nodes-table th.datalist-edit {
+	width: 16px;
+}
+
+table#datalist-list-nodes-table th.datalist-checkboxes img#datalist-toggle-selected-nodes {
+	cursor: pointer;
+}
+
+table#datalist-filter-list-table td {
+	padding: 3px;
+}
+
+table#datalist-filter-list-table td.datalist-filter-active {
+	width: 20px;
+	text-align: center;
+}
+
+table#datalist-filter-list-table td.datalist-filter-name a {
+	text-decoration: none;
+	display: block;
+}
+
+table#datalist-filter-list-table td.datalist-filter-name a.editable {
+	border: 1px solid #5B7D9F;
+	background-color: #FFFFFF;
+}
+
+table#datalist-filter-list-table td.datalist-filter-actions {
+	width: 100px;
+}
+
+table#datalist-filter-list-table td.datalist-filter-actions img {
+	cursor: pointer;
+	margin: 0px 3px;
+	float: right;
+}
+
+table#datalist-list-nodes-table td ul {
+	margin: 0px 0px 0px 20px;
+}
+
+div.additional-attributes-container {
+	padding: 5px;
+}
+
+td img.datalist-boolean-attribute {
+	cursor: pointer;
+}
+
+#datalist-list-nodes-wrapper {
+	width: 100%;
+}
+
+#datalist-list-nodes-loader {
+	display: block;
+	position: relative;
+	left: 50%;
+	margin: 200px 0px 200px 0px;
+	margin-left: -110px;
+}
+
+#datalist-export-icon,
+#datalist-edit-mode-icon {
+	display: block;
+	float: right;
+	margin: 3px;
+}
+
+#datalist-edit-mode-icon img {
+	margin-right: 0px;
+}
+
+
+div.float-right {
+	clear: right;
+	float: right;
+}
+
+div.nxc-datalist-edit-datetime {
+	width: 146px;
+}
+div.nxc-datalist-edit-date {
+	width: 116px;
+}
+div.nxc-datalist-edit-time {
+	width: 172px;
+}
+div.nxc-datalist-edit-time div.element {
+	float: left;
+	padding: 2px;
+}
+
+.nxc-datalist-edit-error {
+	border: 2px solid #FF2A00;
+}
